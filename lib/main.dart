@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/app.dart';
 import 'package:flutter_application_1/utils/theme/theme.dart';
 
-
+/// ---- Entry point buat aplikasi Flutter --- 
 void main() {
+
+  // Todo: Nambah Widget Binding
+  // Todo: Init Local Storage
+  // Todo: Await Native Splash
+  // Todo: Init Firebase
+  // Todo: Init Auth
+
+
+
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      themeMode: ThemeMode.system,
-      theme: TAppTheme.lightTheme,
-      darkTheme: TAppTheme.darkTheme,
-    );
-  }
-}
 
 
