@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class TImages {
   TImages._();
 
-  // Sebagian besar dari sini
+  // Sebagian besar dari sini 
   // merujuk ke folder assets semua
   // jadi direktorinya ke situ yaa
   // kalo mau nambah logo dsb, taronya di folder assets.
