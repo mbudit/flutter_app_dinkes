@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/app.dart';
-import 'package:flutter_application_1/utils/theme/theme.dart';
 
 /// ---- Entry point buat aplikasi Flutter --- 
 void main() {
@@ -10,8 +9,6 @@ void main() {
   // Todo: Await Native Splash
   // Todo: Init Firebase
   // Todo: Init Auth
-
-
 
   runApp(const MyApp());
 }

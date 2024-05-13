@@ -8,13 +8,13 @@ class TTexts {
 
 
   // -- ONBOARDING TEXT
-  static const String onBoardingTitle1 = "Text onboarding title 1";
-  static const String onBoardingTitle2 = "Text onboarding title 2";
-  static const String onBoardingTitle3 = "Text onboarding title 3";
+  static const String onBoardingTitle1 = "Menghubungi ambulan jadi lebih mudah";
+  static const String onBoardingTitle2 = "Temukan rumah sakit terdekat";
+  static const String onBoardingTitle3 = "Informasi mengenai rumah sakit terdekat";
 
-  static const String onBoardingSubTitle1 = "Text onboarding subtitle 1";
-  static const String onBoardingSubTitle2 = "Text onboarding subtitle 2";
-  static const String onBoardingSubTitle3 = "Text onboarding subtitle 3";
+  static const String onBoardingSubTitle1 = "Kami memudahakan anda untuk menghubungi ambulan dalam keadaan genting";
+  static const String onBoardingSubTitle2 = "Kami akan membantu anda untuk mengetahui lokasi rumah sakit terdekat dari lokasi anda saat ini";
+  static const String onBoardingSubTitle3 = "Kami akan membantu anda untuk mengetahui lokasi rumah sakit terdekat dari lokasi anda saat ini";
 
   static const String homeAppbarTitle = "Home AppBar Title";
   static const String homeAppbarSubTitle = "Home AppBar Sub-Title";
