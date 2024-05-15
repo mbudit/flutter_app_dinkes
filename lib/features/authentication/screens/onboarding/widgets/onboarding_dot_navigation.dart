@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:flutter_application_1/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:flutter_application_1/utils/constants/colors.dart';
 import 'package:flutter_application_1/utils/constants/sizes.dart';
 import 'package:flutter_application_1/utils/device/device_utility.dart';
@@ -12,16 +13,18 @@ class OnBoardingDotNavigation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = OnBoardingController.instance;
     final dark = THelperFunctions.isDarkMode(context);
 
     return Positioned(
-        bottom: TDeviceUtils.getBottomNavigationBarHeight(),
+        bottom: TDeviceUtils.getBottomNavigationBarHeight() + 16,
         left: TSizes.defaultSpace,
         child: SmoothPageIndicator(
-          controller: PageController(),
+          controller: controller.pageController,
+          onDotClicked: controller.dotNavigationClick,
           count: 3,
-          effect: JumpingDotEffect(
-              activeDotColor: dark ? TColors.light: TColors.dark, dotHeight: 6),
+          effect: ExpandingDotsEffect(
+              activeDotColor: dark ? TColors.light: TColors.dark, dotHeight: 7),
         ));
   }
 }
