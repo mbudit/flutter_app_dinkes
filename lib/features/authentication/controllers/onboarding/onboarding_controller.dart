@@ -1,20 +1,36 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class OnBoardingScreen extends GetxController {
-  static OnBoardingScreen get instance => Get.find();
+class OnBoardingController extends GetxController {
+  static OnBoardingController get instance => Get.find();
 
   // Kumpulan variabel
+  final pageController = PageController();
+  Rx<int> currentPageIndex = 0.obs;
 
   // Update index saat page scroll
-  void updatePageIndicator(index) {}
+  void updatePageIndicator(index)  => currentPageIndex.value = index;
 
   // Jump ke page yang spesifik
-  void dotNavigationClick(Index) {}
+  void dotNavigationClick(index) {
+    currentPageIndex.value = index;
+    pageController.jumpTo(index);
+  }
 
   // Update index dan jump ke page yang spesifik
-  void nextPage() {}
+  void nextPage() {
+    if(currentPageIndex.value == 2) {
+      // Get.to(LoginScreen()); UNTUK MELAJU KE HALAMAN SELANJUTNYA
+    } else {
+      int page = currentPageIndex.value + 1;
+      pageController.jumpToPage(page);
+    }
+  }
 
   // Update index dan jump ke halaman terakhir
-  void skipPage() {}
+  void skipPage() {
+    currentPageIndex.value = 2;
+    pageController.jumpToPage(2);
+  }
 
 }
