@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/features/authentication/screens/login%20(temp)/login.dart';
 import 'package:get/get.dart';
 
 class OnBoardingController extends GetxController {
@@ -20,7 +21,7 @@ class OnBoardingController extends GetxController {
   // Update index dan jump ke page yang spesifik
   void nextPage() {
     if(currentPageIndex.value == 2) {
-      // Get.to(LoginScreen()); UNTUK MELAJU KE HALAMAN SELANJUTNYA
+      Get.to(LoginScreen());
     } else {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);

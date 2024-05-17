@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class TTexts {
   TTexts._();
 
@@ -18,5 +16,8 @@ class TTexts {
 
   static const String homeAppbarTitle = "Home AppBar Title";
   static const String homeAppbarSubTitle = "Home AppBar Sub-Title";
+
+  static const String loginTitle = "Login";
+  static const String loginSubtitle = "Mohon isi username dan password anda";
 
 }

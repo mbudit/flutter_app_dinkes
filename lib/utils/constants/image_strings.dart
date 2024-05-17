@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class TImages {
   TImages._();
 
@@ -9,8 +7,8 @@ class TImages {
   // kalo mau nambah logo dsb, taronya di folder assets.
 
   // Logo Aplikasi
-  static const String lightAppLogo = "";
-  static const String darkAppLogo = "";
+  static const String lightAppLogo = "assets/logos/LOGO 2.jpg";
+  static const String darkAppLogo = "assets/logos/LOGO 2.jpg";
 
   // Logo bersifat yang kenegaraan kek instansi, pancasila dll
   static const String logoPancasila = "";
