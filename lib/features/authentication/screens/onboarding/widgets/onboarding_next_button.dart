@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:flutter_application_1/utils/constants/colors.dart';
 import 'package:flutter_application_1/utils/constants/sizes.dart';
 import 'package:flutter_application_1/utils/device/device_utility.dart';
@@ -15,12 +16,16 @@ class OnBoardingNextButton extends StatelessWidget {
     final dark = THelperFunctions.isDarkMode(context);
 
     return Positioned(
-      right: TSizes.defaultSpace,
-      bottom: TDeviceUtils.getBottomNavigationBarHeight(),
-      child: ElevatedButton(
-        onPressed: (){},
-        style: ElevatedButton.styleFrom(shape: CircleBorder(), backgroundColor: dark ? TColors.appPrimary:  TColors.appPrimary),
-        child: const Icon(Iconsax.arrow_right_1),
-      ));
+        right: TSizes.defaultSpace,
+        bottom: TDeviceUtils.getBottomNavigationBarHeight(),
+        child: ElevatedButton(
+          onPressed: () => OnBoardingController.instance.nextPage(),
+          style: ElevatedButton.styleFrom(
+            shape: CircleBorder(),
+            backgroundColor: dark ? TColors.appPrimary : TColors.appPrimary,
+            side: const BorderSide(color: TColors.appPrimary),
+          ),
+          child: const Icon(Iconsax.arrow_right_1),
+        ));
   }
 }
