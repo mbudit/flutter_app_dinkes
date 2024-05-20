@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 
 // Variable untuk ukuran ukuran yang bakal dipake buat design aplikasi
 // Nama variabel bisa diganti tapi was was sama kodingan di slicing
