@@ -9,7 +9,6 @@ import 'package:flutter_application_1/features/authentication/screens/onboarding
 import 'package:flutter_application_1/utils/constants/image_strings.dart';
 import 'package:flutter_application_1/utils/constants/text_strings.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});

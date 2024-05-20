@@ -15,6 +15,7 @@ class daftarScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            const SizedBox(height: TSizes.appBarHeight),
             // const SizedBox(
             //   height: TSizes.appBarHeight,
             // ),
@@ -27,9 +28,7 @@ class daftarScreen extends StatelessWidget {
                     TImages.lightAppLogo,
                   ),
                 ),
-
                 const SizedBox(height: TSizes.spaceAntaraItem),
-
                 Text(
                   "Daftar",
                   style: Theme.of(context).textTheme.headlineMedium,
@@ -41,6 +40,18 @@ class daftarScreen extends StatelessWidget {
               child: Column(
                 children: [
                   // Nama
+                  Row(
+                    children: [
+                      TextFormField(
+                        decoration: InputDecoration(labelText: "Nama Depan"),
+                      ),
+                      TextFormField(
+                        decoration: InputDecoration(labelText: "Nama Belakang"),
+                      ),
+                    ],
+                  ),
+
+                  // Email
                   TextFormField(
                     decoration:
                         const InputDecoration(labelText: "Masukkan email anda"),
