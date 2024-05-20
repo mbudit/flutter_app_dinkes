@@ -131,8 +131,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-<<<<<<< HEAD
-=======
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -210,7 +208,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.7"
->>>>>>> 77dc7f5f8fe62af5f471b29674cf77b67a1fe475
   leak_tracker:
     dependency: transitive
     description:
@@ -283,8 +280,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
-<<<<<<< HEAD
-=======
   path_provider:
     dependency: transitive
     description:
@@ -357,7 +352,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
->>>>>>> 77dc7f5f8fe62af5f471b29674cf77b67a1fe475
   sky_engine:
     dependency: transitive
     description: flutter
@@ -419,8 +413,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.0"
-<<<<<<< HEAD
-=======
   typed_data:
     dependency: transitive
     description:
@@ -501,7 +493,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.1"
->>>>>>> 77dc7f5f8fe62af5f471b29674cf77b67a1fe475
   vector_math:
     dependency: transitive
     description:
@@ -518,8 +509,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "14.2.1"
-<<<<<<< HEAD
-=======
   win32:
     dependency: transitive
     description:
@@ -552,7 +541,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.2"
->>>>>>> 77dc7f5f8fe62af5f471b29674cf77b67a1fe475
 sdks:
   dart: ">=3.3.0 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"
