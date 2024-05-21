@@ -5,7 +5,7 @@ class TSpacingStyle {
   static const EdgeInsetsGeometry paddingWithAppBarHeight = EdgeInsets.only(
 
     top: TSizes.appBarBodyHeight,
-    left: TSizes.defaultSpace,
+    left: TSizes.defaultSpace + 10,
 
     bottom: TSizes.defaultSpace,
     right: TSizes.defaultSpace + 10,
