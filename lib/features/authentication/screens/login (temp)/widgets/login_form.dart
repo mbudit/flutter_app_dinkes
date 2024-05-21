@@ -62,8 +62,8 @@ class TLoginForm extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: TColors.appPrimary,
-                  side: const BorderSide(color: TColors.appPrimary),
+                  backgroundColor: TColors.appSecondary,
+                  side: const BorderSide(color: TColors.appSecondary),
                 ),
                 onPressed: () {},
                 child: const Text("Masuk"),
@@ -77,7 +77,11 @@ class TLoginForm extends StatelessWidget {
             // Button "Daftar"
             SizedBox(
               width: double.infinity,
-              child: OutlinedButton(
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: TColors.appAccent,
+                  side: const BorderSide(color: TColors.appAccent),
+                ),
                 onPressed: () {},
                 child: const Text("Daftar"),
               ),
