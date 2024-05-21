@@ -52,18 +52,18 @@ class TFormDaftar extends StatelessWidget {
           // Nomor HP
           TextFormField(
             decoration: const InputDecoration(
-                labelText: "No.Hp", prefixIcon: Icon(Iconsax.call)),
+                labelText: "No. Handphone", prefixIcon: Icon(Iconsax.call)),
           ),
     
           const SizedBox(height: TSizes.spaceAntaraInputField),
     
           // Nomor BPJS
-          TextFormField(
-            decoration: const InputDecoration(
-                labelText: "No. BPJS", prefixIcon: Icon(Iconsax.card)),
-          ),
+          // TextFormField(
+          //   decoration: const InputDecoration(
+          //       labelText: "No. BPJS", prefixIcon: Icon(Iconsax.card)),
+          // ),
     
-          const SizedBox(height: TSizes.spaceAntaraInputField),
+          // const SizedBox(height: TSizes.spaceAntaraInputField),
     
           // NIK
           TextFormField(
