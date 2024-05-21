@@ -33,6 +33,9 @@ class TSizes {
   // Tinggi AppBar
   static const double appBarHeight = 56.0;
 
+  // Tinggi antara AppBar dengan Body
+  static const double appBarBodyHeight = 24.0;
+
   // Ukuran gambar (BISA NAMBAH NANTI SESUAI DESIGN)
   static const double imageThumbSize = 80.0;
 

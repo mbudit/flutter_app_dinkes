@@ -33,6 +33,7 @@ class TLoginForm extends StatelessWidget {
                 labelText: "Masukkan password anda",
                 suffixIcon: Icon(Iconsax.eye_slash),
               ),
+              obscureText: true,
             ),
     
             // Checkbox remember me dan button Forgot Password

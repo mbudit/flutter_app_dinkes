@@ -18,9 +18,10 @@ class TLoginHeader extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Image(
-          height: 150,
+          height: 160,
           image: AssetImage(
-              dark ? TImages.lightAppLogo : TImages.darkAppLogo),
+              dark ? TImages.appLogo : TImages.appLogo),
+              
         ),
         const SizedBox(
           height: TSizes.sm + 10,
