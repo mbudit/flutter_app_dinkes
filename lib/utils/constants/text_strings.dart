@@ -20,4 +20,6 @@ class TTexts {
   static const String loginTitle = "Login";
   static const String loginSubtitle = "Mohon isi username dan password anda";
 
+  static const String informationTitle = "Informasi";
+
 }

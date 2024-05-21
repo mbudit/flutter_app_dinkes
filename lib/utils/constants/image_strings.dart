@@ -9,6 +9,7 @@ class TImages {
   // Logo Aplikasi
   static const String lightAppLogo = "assets/logos/LOGO 2.jpg";
   static const String darkAppLogo = "assets/logos/LOGO 2.jpg";
+  static const String appLogo = "assets/logos/logoAplikasi.png";
 
   // Logo bersifat yang kenegaraan kek instansi, pancasila dll
   static const String logoPancasila = "";

@@ -22,6 +22,13 @@ class TColors {
     Color(0xfffad0c4),
     Color(0xfffad0c4),
   ]);
+  static const Gradient appBarGradient = LinearGradient(
+    begin: Alignment(0.0, 0.0),
+    end: Alignment(0.707, -0.707),
+    colors: [
+      Color(0xffFF6501),
+      Color(0xff993D01),
+    ]);
 
   // Warna Teks Aplikasi
 
