@@ -18,4 +18,7 @@ class TImages {
   static const String onBoardingImage1 = "assets/images/onboarding_images/7966851_3819814.jpg";
   static const String onBoardingImage2 = "assets/images/onboarding_images/8015344_3824022.jpg";
   static const String onBoardingImage3 = "assets/images/onboarding_images/Screenshot 2024-05-13 190144.png";
+
+  static const String verifyEmail = "assets/images/animations/verify_email.gif";
+  static const String verifyEmailSuccess = "assets/images/animations/verify-email-sucess.gif";
 }

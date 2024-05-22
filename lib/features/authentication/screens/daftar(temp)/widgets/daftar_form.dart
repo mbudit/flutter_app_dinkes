@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/features/authentication/screens/daftar(temp)/verify_email.dart';
 import 'package:flutter_application_1/features/authentication/screens/daftar(temp)/widgets/form_widgets/terms_and_condition.dart';
 import 'package:flutter_application_1/utils/constants/colors.dart';
 import 'package:flutter_application_1/utils/constants/sizes.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class TFormDaftar extends StatelessWidget {
@@ -21,8 +23,7 @@ class TFormDaftar extends StatelessWidget {
                 child: TextFormField(
                   expands: false,
                   decoration: const InputDecoration(
-                      labelText: "Nama awal",
-                      prefixIcon: Icon(Iconsax.user)),
+                      labelText: "Nama awal", prefixIcon: Icon(Iconsax.user)),
                 ),
               ),
               const SizedBox(
@@ -32,47 +33,46 @@ class TFormDaftar extends StatelessWidget {
                 child: TextFormField(
                   expands: false,
                   decoration: const InputDecoration(
-                      labelText: "Nama akhir",
-                      prefixIcon: Icon(Iconsax.user)),
+                      labelText: "Nama akhir", prefixIcon: Icon(Iconsax.user)),
                 ),
               ),
             ],
           ),
-    
+
           const SizedBox(height: TSizes.spaceAntaraInputField),
-    
+
           // Email
           TextFormField(
             decoration: const InputDecoration(
                 labelText: "E-mail", prefixIcon: Icon(Iconsax.direct)),
           ),
-    
+
           const SizedBox(height: TSizes.spaceAntaraInputField),
-    
+
           // Nomor HP
           TextFormField(
             decoration: const InputDecoration(
-                labelText: "No.Hp", prefixIcon: Icon(Iconsax.call)),
+                labelText: "No. Handphone", prefixIcon: Icon(Iconsax.call)),
           ),
-    
+
           const SizedBox(height: TSizes.spaceAntaraInputField),
-    
+
           // Nomor BPJS
-          TextFormField(
-            decoration: const InputDecoration(
-                labelText: "No. BPJS", prefixIcon: Icon(Iconsax.card)),
-          ),
-    
-          const SizedBox(height: TSizes.spaceAntaraInputField),
-    
+          // TextFormField(
+          //   decoration: const InputDecoration(
+          //       labelText: "No. BPJS", prefixIcon: Icon(Iconsax.card)),
+          // ),
+
+          // const SizedBox(height: TSizes.spaceAntaraInputField),
+
           // NIK
           TextFormField(
             decoration: const InputDecoration(
                 labelText: "NIK", prefixIcon: Icon(Iconsax.card)),
           ),
-    
+
           const SizedBox(height: TSizes.spaceAntaraInputField),
-    
+
           // Password
           TextFormField(
             obscureText: true,
@@ -81,14 +81,14 @@ class TFormDaftar extends StatelessWidget {
                 prefixIcon: Icon(Iconsax.key),
                 suffixIcon: Icon(Iconsax.eye_slash)),
           ),
-    
+
           const SizedBox(height: TSizes.spaceAntaraItem),
-    
+
           // Checkbox persetujuan
           const TTermsAndCondition(),
-    
+
           const SizedBox(height: TSizes.spaceAntaraItem),
-    
+
           // Button Daftar
           SizedBox(
             width: double.infinity,
@@ -97,7 +97,7 @@ class TFormDaftar extends StatelessWidget {
                 backgroundColor: TColors.appSecondary,
                 side: const BorderSide(color: TColors.appSecondary),
               ),
-              onPressed: () {},
+              onPressed: () => Get.to(() => const VerifyEmailScreen()),
               child: const Text("Daftar"),
             ),
           ),
@@ -106,4 +106,3 @@ class TFormDaftar extends StatelessWidget {
     );
   }
 }
-
