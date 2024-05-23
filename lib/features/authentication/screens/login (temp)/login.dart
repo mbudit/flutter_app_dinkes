@@ -27,10 +27,8 @@ class LoginScreen extends StatelessWidget {
           padding: TSpacingStyle.paddingWithAppBarHeight,
           child: Column(
             children: [
-              SizedBox(height: TSizes.appBarBodyHeight),
-
               // Penjarak
-              SizedBox(height: TSizes.appBarHeight + 30),
+              SizedBox(height: TSizes.appBarHeight),
 
               // Header
               // Logo, Title, Subtitle

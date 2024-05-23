@@ -31,7 +31,9 @@ class THelperFunctions {
       return Colors.green;
     } else if (value == 'Green') {
       return Colors.green;
-    } 
+    } else{
+      return null;
+    }
   }
 
   static void showSnackBar(String message) {

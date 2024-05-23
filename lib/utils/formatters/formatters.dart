@@ -7,7 +7,7 @@ class TFormatter {
   }
 
   static String formatCurrency(double amount) {
-    return NumberFormat.currency(locale: 'id_ID', symbol: '\Rp').format(amount); // Customize mata uang dan simbolnya
+    return NumberFormat.currency(locale: 'id_ID', symbol: 'Rp').format(amount); // Customize mata uang dan simbolnya
   }
 
   // Dengan format nomor hp Indonesia ya, default digitnya kisaran 13 digit = 0812-1234-5678
