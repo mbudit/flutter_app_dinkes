@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/features/authentication/screens/daftar(temp)/daftar.dart';
+import 'package:flutter_application_1/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:flutter_application_1/utils/constants/colors.dart';
 import 'package:flutter_application_1/utils/constants/sizes.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class TLoginForm extends StatelessWidget {
@@ -50,7 +53,7 @@ class TLoginForm extends StatelessWidget {
     
                 // Lupa password
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const ForgetPassword()),
                   child: const Text("Lupa Password",
                       style: TextStyle(fontSize: 14)),
                 )
@@ -82,7 +85,7 @@ class TLoginForm extends StatelessWidget {
                   backgroundColor: TColors.appAccent,
                   side: const BorderSide(color: TColors.appAccent),
                 ),
-                onPressed: () {},
+                onPressed: () => Get.to(() => const DaftarScreen()),
                 child: const Text("Daftar"),
               ),
             ),

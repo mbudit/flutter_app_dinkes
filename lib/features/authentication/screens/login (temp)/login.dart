@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/common/styles/spacing_styles.dart';
 import 'package:flutter_application_1/features/authentication/screens/login%20(temp)/widgets/login_form.dart';
@@ -29,10 +27,8 @@ class LoginScreen extends StatelessWidget {
           padding: TSpacingStyle.paddingWithAppBarHeight,
           child: Column(
             children: [
-              SizedBox(height: TSizes.appBarBodyHeight),
-
               // Penjarak
-              SizedBox(height: TSizes.appBarHeight + 30),
+              SizedBox(height: TSizes.appBarHeight),
 
               // Header
               // Logo, Title, Subtitle
