@@ -24,6 +24,8 @@ class SuccessScreen extends StatelessWidget {
           padding: TSpacingStyle.paddingWithAppBarHeight * 2,
           child: Column(
             children: [
+              const SizedBox(height: TSizes.appBarHeight),
+
               Image(
                 image: AssetImage(image),
                 width: THelperFunctions.screenWidth() * 0.7,
