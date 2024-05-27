@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/features/authentication/screens/daftar(temp)/daftar.dart';
+// import 'package:flutter_application_1/features/authentication/screens/homepage/homepage.dart';
+import 'package:flutter_application_1/features/authentication/screens/homepage/parentpage.dart';
 import 'package:flutter_application_1/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:flutter_application_1/utils/constants/colors.dart';
 import 'package:flutter_application_1/utils/constants/sizes.dart';
@@ -68,7 +70,7 @@ class TLoginForm extends StatelessWidget {
                   backgroundColor: TColors.appSecondary,
                   side: const BorderSide(color: TColors.appSecondary),
                 ),
-                onPressed: () {},
+                onPressed: () => Get.to(() => const ParentPage()),
                 child: const Text("Masuk"),
               ),
             ),

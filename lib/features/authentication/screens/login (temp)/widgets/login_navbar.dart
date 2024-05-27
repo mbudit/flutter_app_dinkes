@@ -16,7 +16,7 @@ class TNavBar extends StatelessWidget {
             currentAccountPicture: CircleAvatar(
               child: ClipOval(
                 child: Image(
-                  image: AssetImage(TImages.appLogo),
+                  image: AssetImage(TImages.userEmpty),
                   fit: BoxFit.cover,),
               ),
             ),
