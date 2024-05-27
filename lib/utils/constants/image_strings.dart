@@ -21,4 +21,7 @@ class TImages {
 
   static const String verifyEmail = "assets/images/animations/verify_email.gif";
   static const String verifyEmailSuccess = "assets/images/animations/verify-email-sucess.gif";
+
+  // Gambar user empty
+  static const String userEmpty = "assets/logos/userEmpty.png";
 }

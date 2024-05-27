@@ -20,6 +20,7 @@ class TSizes {
   static const double iconLg = 32.0;
 
   // Ukuran Font (SESUAI DESIGN)
+  static const double fontSizeMn = 12.0;
   static const double fontSizeSm = 14.0;
   static const double fontSizeMd = 16.0;
   static const double fontSizeLg = 18.0;
@@ -75,7 +76,10 @@ class TSizes {
 
   // Grid view spacing
   static const double gridViewSpacing = 16.0;
-  
+
+  // Image Slider News
+  static const double sizeFactor = 5.0;
+  static const double heightSlider = 180.0;
 
 
 
